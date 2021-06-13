@@ -5,13 +5,13 @@
 
 ## Removendo recursos
 Para destruir um recurso, é possível fazer isso de maneiras diferentes:
-    * Removendo o recurso dos arquivos (é o mais prático)
-    * Comentar o bloco do recurso no arquivo
-    * Pela linha de comando, especificando a referência do recurso dentro do Terraform:
+* Removendo o recurso dos arquivos (é o mais prático)
+* Comentar o bloco do recurso no arquivo
+* Pela linha de comando, especificando a referência do recurso dentro do Terraform:
        
-        Exemplo:
+Exemplo:
 
-        terraform destroy aws_instance.app_server
+    terraform destroy aws_instance.app_server
        
 Importante lembrar que se um recurso A depende do recurso B, ao detruir o recurso B, automaticamente o recurso A também será destruído
 
