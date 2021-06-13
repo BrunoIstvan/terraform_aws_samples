@@ -1,0 +1,7 @@
+.vscode
+.idea
+.terraform
+*.pub
+*.backup
+*.zip
+*.hcl
